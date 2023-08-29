@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ES6",
+        "outDir": "dist/esm",
+        "declaration": true,
+        "lib": [
+            "ES2016",
+            "DOM"
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}

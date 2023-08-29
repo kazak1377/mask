@@ -2,15 +2,25 @@
     "name": "max-mask",
     "version": "0.0.1",
     "description": "Simple masking solution for any frontend as well as nodejs. Provides composable for Vue3",
-    "main": "dist/index.js",
+    "main": "dist/cjs/index.js",
+    "exports": {
+        ".": "./dist/esm/index.js",
+        "./cjs": "./dist/cjs/index.js"
+    },
+    "types": "dist/cjs/index.d.ts",
     "repository": "git@github.com:kazak1377/mask.git",
     "author": "Maksym <max@kozachenko.io>",
     "license": "MIT",
     "private": false,
+    "type": "module",
     "scripts": {
-        "build": "tsc"
+        "prebuild": "rimraf dist",
+        "build": "npm run build:cjs && npm run build:esm",
+        "build:cjs": "tsc -p tsconfig.cjs.json",
+        "build:esm": "tsc -p tsconfig.esm.json"
     },
     "devDependencies": {
-        "typescript": "^5.2.2"
+        "typescript": "^5.2.2",
+        "rimraf": "^5.0.1"
     }
 }
