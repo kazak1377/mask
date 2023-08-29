@@ -8,7 +8,7 @@
         "./cjs": "./dist/cjs/index.js"
     },
     "types": "dist/cjs/index.d.ts",
-    "repository": "git@github.com:kazak1377/mask.git",
+    "repository": "https://github.com/kazak1377/mask",
     "author": "Maksym <max@kozachenko.io>",
     "license": "MIT",
     "private": false,
