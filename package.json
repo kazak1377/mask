@@ -1,0 +1,16 @@
+{
+    "name": "max-mask",
+    "version": "0.0.1",
+    "description": "Simple masking solution for any frontend as well as nodejs. Provides composable for Vue3",
+    "main": "dist/index.js",
+    "repository": "git@github.com:kazak1377/mask.git",
+    "author": "Maksym <max@kozachenko.io>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^5.2.2"
+    }
+}
