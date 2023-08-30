@@ -1,5 +1,5 @@
 // src/maskInput.ts
-import { isForeverModeSymbol, isValidFormatSymbol, applyMasking, } from "./commonUtils";
+import { isForeverModeSymbol, isValidFormatSymbol, applyMasking, } from "./commonUtils.js";
 export const maskInput = (input, format) => {
     let formatted = "";
     let i = 0;

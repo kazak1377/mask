@@ -1,4 +1,4 @@
-import { maskInput } from "./maskInput";
+import { maskInput } from "./maskInput.js";
 
 export const useMasking = () => {
     const mask = (input: string, format: string): string => {

@@ -4,7 +4,7 @@ import {
     isForeverModeSymbol,
     isValidFormatSymbol,
     applyMasking,
-} from "./commonUtils";
+} from "./commonUtils.js";
 
 export const maskInput = (input: string, format: string): string => {
     let formatted = "";

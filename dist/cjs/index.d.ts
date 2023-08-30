@@ -1,2 +1,2 @@
-export { maskInput } from "./maskInput";
-export { useMasking } from "./useMasking";
+export { maskInput } from "./maskInput.js";
+export { useMasking } from "./useMasking.js";
