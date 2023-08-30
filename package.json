@@ -1,10 +1,36 @@
 {
     "name": "max-mask",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Simple masking solution for any frontend as well as nodejs. Provides composable for Vue3",
+    "keywords": [
+        "string-masking",
+        "input-mask",
+        "text-formatting",
+        "frontend",
+        "nodejs",
+        "data-validation",
+        "vue3",
+        "composable",
+        "typescript",
+        "pattern-matching",
+        "form-validation",
+        "user-input",
+        "privacy",
+        "security",
+        "data-sanitization",
+        "utility",
+        "es6",
+        "commonjs"
+    ],
     "main": "dist/cjs/index.js",
     "exports": {
-        ".": "./dist/esm/index.js",
+        ".": [
+            {
+                "import": "./dist/esm/index.js",
+                "require": "./dist/cjs/index.js"
+            },
+            "./dist/cjs/index.js"
+        ],
         "./cjs": "./dist/cjs/index.js"
     },
     "types": "dist/cjs/index.d.ts",
