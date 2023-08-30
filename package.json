@@ -1,6 +1,6 @@
 {
     "name": "max-mask",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Simple masking solution for any frontend as well as nodejs. Provides composable for Vue3",
     "main": "dist/cjs/index.js",
     "exports": {
